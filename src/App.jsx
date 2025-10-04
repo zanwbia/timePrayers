@@ -12,17 +12,24 @@ function App() {
 const cities = [
   { name: "بغداد", value: "Baghdad" },
   { name: "البصرة", value: "Basra" },
+  { name: "نينوى", value: "Mosul" },
   { name: "أربيل", value: "Erbil" },
   { name: "السليمانية", value: "Sulaymaniyah" },
+  { name: "دهوك", value: "Duhok" },
+  { name: "كركوك", value: "Kirkuk" },
   { name: "النجف", value: "Najaf" },
   { name: "كربلاء", value: "Karbala" },
-  { name: "نينوى", value: "Mosul" }, 
-  { name: "واسط", value: "Kut" },
   { name: "بابل", value: "Hillah" },
+  { name: "واسط", value: "Kut" },
   { name: "ميسان", value: "Amarah" },
-  { name: "دهوك", value: "Duhok" },
-  { name: "كركوك", value: "Kirkuk" }
+  { name: "ذي قار", value: "Nasiriyah" },
+  { name: "الديوانية", value: "Diwaniyah" },
+  { name: "الأنبار", value: "Ramadi" },
+  { name: "ديالى", value: "Baqubah" },
+  { name: "صلاح الدين", value: "Tikrit" },
+  { name: "المثنى", value: "Samawah" }
 ];
+
 
 useEffect(()=>{  
 
